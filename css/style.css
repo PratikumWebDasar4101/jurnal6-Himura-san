@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Open Sans;
+    background-color: #EFEFEF;
+}
+
+*:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.5s;
+}
+/* =============================================================================== */
+
+#button_logout {
+    float: right;
+    border: 0;
+    background-color: darkred;
+    color: white;
+    padding: 0.5% 1%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    margin: 1% 2% 1% 1%;
+    transition: 0.5s;
+}
+
+#button_logout:hover {
+    background-color: red;
+    transition: 0.5s;
+}
+/* =============================================================================== */
+.form {
+    float: left;
+    width: 25%;
+    margin: 6% 36%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+}
+
+.form #title {
+    float: left;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    color: white;
+    background-color: darkred;
+}
+
+.form #data {
+    float: left;
+    text-align: center;
+    width: 96%;
+    padding: 1% 2% 2% 2%;
+    border-radius: 0 0 10px 10px;
+    background-color: white;
+}
+
+.form #data #dropdown {
+    text-align-last: center;
+}
+
+.form #data textarea {
+    width: 96%;
+    padding: 1%;
+}
+
+.form #data input[type='text'], .form #data select {
+    width: 96%;
+    padding: 1%;
+    margin: 1% 0;
+    text-align: center;
+    border: 0;
+    border-bottom: 1px solid black;
+}
+
+.form #data input[type='reset'] {
+    padding: 2% 3%;
+    border: 0;
+    background-color: darkred;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+}
+
+.form #data input[type='submit'] {
+    padding: 2% 3%;
+    border: 0;
+    background-color: darkgreen;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+}
+/* =============================================================================== */

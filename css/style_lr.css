@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: Open Sans;
+    background-color: #EFEFEF;
+}
+
+*:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.5s;
+}
+/* =============================================================================== */
+#button {
+    float: right;
+    border: 0;
+    background-color: darkgreen;
+    color: white;
+    padding: 0.5% 1%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    margin: 1% 2%;
+    transition: 0.5s;
+}
+
+#button:hover {
+    background-color: green;
+    transition: 0.5s;
+}
+/* =============================================================================== */
+.login {
+    float: left;
+    width: 25%;
+    margin: 6% 36%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+}
+
+.login #title {
+    float: left;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    color: white;
+    background-color: darkred;
+}
+
+.login #data {
+    float: left;
+    text-align: center;
+    width: 96%;
+    padding: 1% 2% 2% 2%;
+    border-radius: 0 0 10px 10px;
+    background-color: white;
+}
+
+.login #data input[type='text'], .login #data input[type='password'] {
+    width: 75%;
+    padding: 1%;
+    margin: 1% 0;
+    text-align: center;
+    border: 0;
+    border-bottom: 1px solid black;
+}
+
+.login #data input[type='reset'] {
+    padding: 2% 3%;
+    border: 0;
+    background-color: darkred;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px black;
+}
+
+.login #data input[type='submit'] {
+    padding: 2% 3%;
+    border: 0;
+    background-color: darkgreen;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+}
+/* =============================================================================== */
